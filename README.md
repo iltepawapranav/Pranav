@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    button{
+  color:red;
+  background-color:green;
+}
+  </style>
+</head>
+<body>  <header>
+    <h1>My Portfolio</h1>
+    <p>Pranav Gopal Iltepawar</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a first-year B.Sc. Computer Science student at Abasaheb Garware College, Pune. I'm passionate about technology and currently building my foundation in C Programming, Web development,
+Python and Graphic design..</p>
+    </section><section id="skills">
+  <h2>Skills</h2><p>
+ 🔹 Learning C Programming to strengthen my logic-building skills<br>
+🔹 Exploring Web Development<br>
+🔹 Practicing Graphic Design <br>
+🔹 Interested in Video Editing<br>
+🔹 Building strong computer fundamentals and software knowledge<br>
+🔹 Python programming<br> </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <p>I'm a first-year B.Sc. Computer Science student. <br>
+  <b> 10th class 83%</b> <br>
+    <b> 12th class 70%</b> <br>
+  
+  </p>
+  
+  
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="iltepawarpranav73@gmail.com">iltepawarpranav73@gmail.com</a></p>
+    <p>Mobile No: <b>9096991016</b></p>
+  </section>
+  <button type=submit">Next</button>
+ 
+  </body>
+
+</html>
